@@ -463,9 +463,11 @@ color:blue;
 }
 
 #GAME{
-    position:absolute;
-    left: 620px;
-    top:4720px;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:45%;
+    
     background-color: #333;
   color: #fff;
   border: none;
